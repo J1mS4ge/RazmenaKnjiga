@@ -1,0 +1,36 @@
+
+
+/*  top sale template   */
+#users-list .owl-carousel .item .user a {
+    overflow: hidden;
+}
+#users-list .owl-carousel .item .user img {
+    transition: transform 0.5s ease;
+    margin: 3px;
+}
+#users-list .owl-carousel .item .user img:hover {
+    transform: scale(1.1);
+}
+#users-list .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#users-list .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#users-list .owl-carousel .owl-nav button.owl-prev span,
+#users-list .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#users-list .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#users-list .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#users-list .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
